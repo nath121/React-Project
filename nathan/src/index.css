@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+main {
+  border: 5px;
+}
+
+h2.subtitle {
+  color: gray;
+  font-size: 32px;
+}
+
+h3.titre2 {
+  color: gray;
+  font-size: 18px;
+}
+
+.style1 {
+  text-align: left;
+}
+
+.style2 {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.left-align {
+  text-align: left;
+}
+
+/* Bouton principal */
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #9acd32; /* Couleur de fond verte */
+  border-color: #9acd32; /* Couleur de la bordure verte */
+}
+
+/* Au survol */
+.btn-primary:hover {
+  background-color: #7a9a1f; /* Couleur de fond verte plus foncée */
+  border-color: #7a9a1f; /* Couleur de la bordure verte plus foncée */
+}
+
+/* Pour les barres de progression de couleur verte */
+.progress-bar {
+  background-color: #9acd32; /* Couleur verte */
+}
+
+/* Pour les barres de progression au survol */
+.progress-bar:hover {
+  background-color: #9acd32; /* Couleur verte plus foncée au survol */
+}
+
+button,
+.btn {
+  background-color: #9acd32; /* Couleur de fond verte */
+  border-color: #9acd32; /* Couleur de la bordure verte */
+}
+
+/* Au survol */
+button:hover,
+.btn:hover {
+  background-color: #9acd32; /* Couleur de fond verte plus foncée au survol */
+  border-color: #9acd32; /* Couleur de la bordure verte plus foncée au survol */
+}
+
+.bt1 {
+  background-color: #9acd32; /* Couleur de fond verte */
+  border-color: #9acd32; /* Couleur de la bordure verte */
+}
+
+.custom-btn {
+  text-align: left; /* Placer le texte à gauche */
+  display: block; /* Afficher le bouton comme un bloc pour occuper toute la largeur disponible */
+}
+
+.custom-btn.btn-primary {
+  /* Ajouter d'autres styles personnalisés pour la couleur */
+  background-color: #9acd32; /* Choisir la couleur de fond */
+  color: white; /* Choisir la couleur du texte */
+  border: none;
+  text-align: left;
+}
+
+.custom-btn.btn-primary:hover {
+  /* Styles pour le survol du bouton */
+  background-color: #7a9a1f; /* Nouvelle couleur de fond au survol */
+  /* Vous pouvez également ajouter d'autres styles ici, comme changer la couleur du texte ou ajouter une ombre */
+}
+
+.custom-progress-bar .progress-bar {
+  background-color: #9acd32; /* Choisir votre couleur personnalisée */
+}
+.btn.btn-primary {
+  /* Ajouter d'autres styles personnalisés pour la couleur */
+  background-color: #9acd32; /* Choisir la couleur de fond */
+  color: white; /* Choisir la couleur du texte */
+  border: none;
+  text-align: left;
+}
+
+.btn.btn-primary:hover {
+  /* Styles pour le survol du bouton */
+  background-color: #7a9a1f; /* Nouvelle couleur de fond au survol */
+  /* Vous pouvez également ajouter d'autres styles ici, comme changer la couleur du texte ou ajouter une ombre */
+}
